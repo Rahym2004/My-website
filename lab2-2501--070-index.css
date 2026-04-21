@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f3f3f3;
+}
+
+/* HEADER */
+header {
+    background: #1e3a5f;
+    color: white;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: orange;
+}
+
+.user span {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* NAV */
+nav {
+    background: #2c4a70;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+/* LAYOUT */
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+/* LEFT */
+.left {
+    width: 20%;
+    background: #fff;
+    padding: 10px;
+}
+
+.cat {
+    background: #eee;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* CENTER */
+.center {
+    width: 60%;
+    padding: 0 20px;
+}
+
+.banner {
+    background: #5fb3a5;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* BOOKS */
+.books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 20%;
+    background: white;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 3px;
+}
+
+/* RIGHT */
+.right {
+    width: 20%;
+    background: #fff;
+    padding: 10px;
+    position: sticky;
+    top: 100px;
+}
+.footer {
+    text-align: left;
+}
